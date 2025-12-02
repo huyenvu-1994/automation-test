@@ -1,0 +1,31 @@
+Page 1
+1
+//input[@id='firstName']
+//input[@id='userEmail']
+2. 
+//input[@value='Male']
+//input[@value='Female']
+//input[@value='Other']
+3.
+//input[@id='subjectsInput']
+4. param add to text()
+//label[text()='Sports']/../input
+//label[text()='Reading']/../input
+//label[text()='Music']/../input
+5.
+//input[@id='currentAddress']
+6.
+//div[text()='Select State']
+//*[text()='NCR']
+7.
+//div[text()='Select City']
+//*[text()='Delhi']
+
+Page 2
+//div[text()='Cierra']/..//span[contains(@id,'delete-record')]
+
+Page 3
+//h3[contains(text(),'Điện thoại Samsung Galaxy S25 Ultra (12GB/256GB) - Hàng chính hãng')]/../..//div[@class='price-discount__price']
+
+Page 4
+//div[@class='DayPicker-Month'][1]//span[@class='DayPicker-Day__label'][text()='20']
